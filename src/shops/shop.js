@@ -1,6 +1,4 @@
 const Shop_data=[
-
-
     {
         id: 1,
         title: 'Hats',

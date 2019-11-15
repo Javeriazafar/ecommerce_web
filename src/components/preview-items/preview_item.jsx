@@ -9,9 +9,9 @@ const Preview=({title,items})=>(
 <h1 className='title'>{title.toUpperCase()}</h1>
 <div className='preview'>
 {items
-    .filter((item,indx)=>indx<4)
-    .map(({id,...initem})=>
-(<Displayimg key={id} {...initem}/>)
+    .filter((items,indx)=>indx<4)
+    .map((items)=>
+(<Displayimg key={items.id} item={items}/>)
 )}
 </div>
        

@@ -21,9 +21,10 @@
     
   
     &:hover {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
+      &.invert{
+      background-color: rgb(0, 0, 0);
+      color: whitesmoke;
+      border: 1px solid black;}
     }
     &.google-sign-in{
       background-color: rgb(32, 88, 110);
