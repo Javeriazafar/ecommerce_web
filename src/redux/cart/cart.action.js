@@ -11,4 +11,12 @@ export const AddItem=(item)=>(
         payload:item
     }
 )
+ export const ClearItem =(item)=>({
+     type:CartActionType.CLEAR_ITEMS_FROM_CHECKOUT,
+     payload:item
+ })
+ export const RemoveItem=(item)=>({
+type:CartActionType.REMOVE_ITEM,
+payload:item
 
+ })
