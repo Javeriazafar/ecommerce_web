@@ -1,5 +1,5 @@
 import React from 'react';
- 
+
 import {Route} from 'react-router-dom';
 import CollectionPreview from '../components/collection-preview/collection-preview.component';
 import collectionPage from '../pages/collection-page/collection-page.component';
